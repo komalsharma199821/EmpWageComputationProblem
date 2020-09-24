@@ -29,8 +29,8 @@ if [ $value == 1 ]
 then
         resWorkDonePerDay=$( getWorkHours $((RANDOM%3)) );
 
-        dailyWage=$((EMPLOYEE_PER_HOUR_WAGE * $resWorkDonePerDay));
-        echo "Daily Wage For an Employee is :"$dailyWage;
+        dailyWage=$((EMPLOYEE_PER_HOUR_WAGE * $resWorkDonePerDay * 20));
+        echo "Monthly Wage For an Employee is :"$dailyWage;
 
 else
 
