@@ -21,3 +21,6 @@ then
 else
 	echo "Empwage cannot be calculated for absent employee";
 fi
+
+
+
